@@ -1,4 +1,4 @@
 @echo off
 
 echo Building...
-go build -o ..\go-parts.exe src\main.go
+go build -C .\src\ -o ..\..\go-parts.exe .
